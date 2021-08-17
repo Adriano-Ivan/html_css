@@ -16,3 +16,6 @@ p {
     font-size: 15pt;
     text-align:center;
 }
+p#descricao strong#missao {
+    color: red;
+}
