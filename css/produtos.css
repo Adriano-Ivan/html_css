@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    padding-top:0;
+}
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+header div {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav .navegacao {
+    display: flex;
+    text-transform: uppercase;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav a {
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
