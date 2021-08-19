@@ -19,6 +19,6 @@ p {
 p#descricao strong#missao {
     color: red;
 }
-img {
+img#banner {
     width:100%;
 }
