@@ -5,7 +5,7 @@ body, html{
     margin:0;
 }
 body {
-    padding: 10px;
+    padding: 0;
     background-color:#cdcdcd;
 }
 h1 { 
@@ -18,4 +18,7 @@ p {
 }
 p#descricao strong#missao {
     color: red;
+}
+img {
+    width:100%;
 }
