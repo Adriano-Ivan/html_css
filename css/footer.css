@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/bg.jpg');
+    padding: 40px 0;
+}
+
+footer .copyright {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
+}

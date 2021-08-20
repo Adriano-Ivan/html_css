@@ -5,32 +5,47 @@ body {
     margin:0;
     padding-top:0;
 }
-header {
-    background: #bbbbbb;
-    padding: 20px 0;
-}
-header div {
+
+main .produtos {
     width: 940px;
-    position: relative;
     margin: 0 auto;
-}
-nav .navegacao {
     display: flex;
-    text-transform: uppercase;
-}
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-nav li {
-    list-style: none;
-    padding: 10px;
+    justify-content: center;
+    padding: 50px 0;
 }
 
-nav a {
-    color: #000;
+main .produtos li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex:1;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border: 2px solid #000;
+    border-radius: 2%;
+}
+main .produtos li:hover {
+    border-color:#c78c19;
+}
+main .produtos li:active {
+    border-color: #088c19;
+}
+main .produtos li:hover h2 {
+    font-size: 31px;
+}
+.produtos h2 {
+    font-size: 30px;
     font-weight: bold;
+    margin-bottom: 10px;
+}
+.produto-descricao {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.produto-preco {
     font-size: 22px;
-    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0;
 }
