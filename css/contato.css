@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+ 
+#container-form {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    margin: 40px 0;
+}
+
+form label, form p{
+    display:flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+form .input-padrao, textarea {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+textarea {
+    resize: none;
+    height: 160px;
+}
+
+#label-checkbox {
+    flex-direction: row;
+    width: 50%;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.label-radio {
+    flex-direction: row;
+}
+
+/*
+p {
+    color: blue;
+}
+
+p.paragrafo {
+    color: red;
+}
+
+.paragrafo {
+    color: purple;
+}
+*/
