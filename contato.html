@@ -28,26 +28,28 @@
                 <form>
                     <label>
                             Nome e sobrenome:
-                            <input type="text" class="input-padrao" id="nomeesobrenome">
+                            <input type="text" class="input-padrao" id="nomeesobrenome" required>
                         </label>
 
                         <label>
                             Email:
-                            <input type="email" class="input-padrao" id="email">
+                            <input type="email" class="input-padrao" 
+                            placeholder="seuemail@dominio.com" id="email" required>
                         </label>
 
                         <label>
                             Telefone:
-                            <input type="text" class="input-padrao" id="telefone">
+                            <input type="tel" class="input-padrao" 
+                            placeholder="(XX) XXXX-XXXX" id="telefone" required>
                         </label>
 
                         <label>
                             Mensagem:
-                            <textarea id="textarea"></textarea>
+                            <textarea id="textarea" required></textarea>
                         </label>
                        <!---->
-                        <div>
-                            <p>Como prefere o nosso contato ?</p>
+                        <fieldset>
+                            <legend>Como prefere o nosso contato ?</legend>
                             <label class="label-radio">
                                 <input type="radio" value="email" name="contato" id="radio-email">
                                 Email
@@ -59,30 +61,56 @@
                             </label>
 
                             <label class="label-radio"> 
-                                <input type="radio" value="whatsapp" name="contato" id="radio-whatsapp">
+                                <input type="radio" value="whatsapp" checked name="contato" id="radio-whatsapp">
                                 WhatsApp:
                             </label>
-                        </div>
+                        </fieldset>
 
-                        <div>
-                            <p>Em qual horário prefere ser atendidio ?</p>
+                        <fieldset>
+                            <legend>Em qual horário prefere ser atendidio ?</legend>
                             <select>
                                 <option value="manhã">Manhã</option>
                                 <option value="tarde">Tarde</option>
                                 <option value="noite">Noite</option>
                             </select>
-                        </div>
+                        </fieldset>
                         <label id="label-checkbox">
-                            <input type="checkbox" id="confirmacao-newsletter">
+                            <input type="checkbox" checked id="confirmacao-newsletter">
                             Gostaria de receber as novidades por email ?
                         </label>
-                        <input type="submit" class="input-padrao" value="Enviar formulário">
+                        <input type="submit" class="enviar" value="Enviar formulário">
                 </form>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan=2>Disponibilidade</th>
+                        </tr>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>8h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>8h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>8h - 20h</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
        </main>
 
        <footer>
-            <img src="img/logo-branco.png">
+            <img src="img/logo-branco.png" alt="Logo da Barbearia Alura">
             <p class="copyright">Copyright &copy; Barbearia Alura 2021</p>
        </footer>
     </body>
