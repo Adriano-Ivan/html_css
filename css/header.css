@@ -32,3 +32,36 @@ nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
+
+@media screen and (max-width:480px) {
+    header div {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        position: static;
+    }
+    nav {
+        position:static;
+        display: flex;
+        justify-content: center;
+    }
+    nav a {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:770px) {
+    header div {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        position: static;
+    }
+    nav {
+        position:static;
+        display: flex;
+        justify-content: center;
+    }
+    nav a {
+        font-size: 15px;
+    }
+}
